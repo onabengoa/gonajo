@@ -1,7 +1,7 @@
 Proyecto de Programación
 Descripción del Proyecto
 
-Este proyecto consiste en una aplicación web que incluye un formulario de inicio de sesión y registro, así como clases en JavaScript para representar escritores, libros y usuarios.
+Este proyecto consiste en una aplicación web que incluye un formulario de inicio de sesión y registro, así como clases en JavaScript para representar escritores y libros y poder hacer busquedas y registros de libros y los autores.
 
 Características principales:
 
@@ -26,17 +26,15 @@ Estructura de Archivos
     style.css: Archivo CSS que define los estilos visuales de la aplicación.
     script.js: Archivo JavaScript que contiene las clases de escritor, libro, géneros de libros y gestión de usuarios, así como la lógica para manejar los eventos del formulario.
     App.js: El componente principal de React que maneja la lógica del inicio de sesión y registro.
-    UserContext.js: Un contexto de React para gestionar el estado global de los usuarios.
-    Writer.js y Book.js: Componentes de React que representan a los escritores y libros respectivamente.
     server.js: Archivo que maneja la configuración del servidor y las rutas de la API.
     models/: Directorio que contiene los modelos de MongoDB para usuarios, escritores y libros.
 
-Uso
+Requisitos del Software y Uo
 
     Iniciar la aplicación:
         Ejecutar npm install para instalar las dependencias necesarias.
-        Configurar la conexión a MongoDB en el archivo server.js.
-        Ejecutar npm start para iniciar el servidor y la aplicación React.
+        Instalar y configurar la conexión a MongoDB en el archivo server.js.
+        Ejecutar npm start para iniciar el servidor.msj y la aplicación React en login-react.
 
     Interacción con la aplicación:
         Abrir el archivo index.html en un navegador web compatible.
