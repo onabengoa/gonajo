@@ -29,7 +29,7 @@ Estructura de Archivos
     server.js: Archivo que maneja la configuración del servidor y las rutas de la API.
     models/: Directorio que contiene los modelos de MongoDB para usuarios, escritores y libros.
 
-Requisitos del Software y Uo
+Requisitos del Software y uso
 
     Iniciar la aplicación:
         Ejecutar npm install para instalar las dependencias necesarias.
